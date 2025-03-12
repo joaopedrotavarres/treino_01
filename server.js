@@ -6,7 +6,7 @@ const app = express(); //Criamos uma aplicação Express, que será o nosso serv
 app.use(express.static('static')); //Dizemos ao Express para servir arquivos estáticos (CSS, imagens, etc.) da pasta static.
 
 app.get('/', (req,res) => {
-    res.sendFile(__dirname + '/template/treino.html');
+    res.sendFile(__dirname + '/views/treino.html');
 }); //Criamos uma rota que responde à requisição GET no endereço /, enviando o arquivo treino.html.
 
 const PORT = 3000;
