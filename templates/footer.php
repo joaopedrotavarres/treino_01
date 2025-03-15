@@ -1,4 +1,5 @@
-        </div> 
+<!DOCTYPE html>
+</div> 
         <footer class="bg-dark text-center text-white py-3 mt-auto">
             <p>Vazei? - Proteja seus dados</p>
         </footer>
