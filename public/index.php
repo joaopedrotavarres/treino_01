@@ -1,5 +1,5 @@
 <?php include '../templates/header.php'; ?>
-    <div class="text-center">
+    <div class="container text-center">
         <h1 class="mb-3">Será que meus dados vazaram?</h1>
         <p class="lead">Digite seu e-mail ou CPF para verificar se seus dados estão expostos.</p>
 
